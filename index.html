@@ -9,7 +9,63 @@
   </head>
 
   <body>
-    <h1 class="text-primary">Teste</h1>
+    <nav
+      class="navbar navbar-expand-md navbar-light bg-light px-4 fixed-top py-3 box-shadow"
+    >
+      <a class="navbar-brand" href="./">
+        <img src="./img/caravan.svg" alt="Caravan" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Abrir navegação"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Locais</a
+            >
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a href="./local.html" class="dropdown-item">California</a>
+              </li>
+              <li><a href="./local.html" class="dropdown-item">Paris</a></li>
+              <li><a href="./local.html" class="dropdown-item">Dublin</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./planos.html">Planos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contato.html">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./#.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-primary ms-md-2" href="./inscricao.html"
+              >Inscreva-se</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/script.js"></script>
